@@ -1,0 +1,127 @@
+.coverimg {
+    width: -webkit-fill-available;
+}
+.lists {
+    width: 250px;
+    margin-top: 50px;
+}
+.list {
+    display: flex;
+}
+.page1t {
+    display: flex;
+    justify-content: space-around;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    color: #222222;
+    border-bottom: 1px solid rgba(35, 31, 32, 0.1);
+    margin-bottom: 25px;
+}
+.page1a {
+    margin-left: 23px;
+}
+.page1b {
+    margin-left: 52px;
+}
+.lists1 {
+    display: flex;
+    width: -webkit-fill-available;
+    margin-top: 80px;
+}
+.Productsss {
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-around;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.blue {
+    background: #004197;
+    height: fit-content;
+    color: #FFFF;
+    padding: 23px 24px 25px 22px;
+}
+.col1 {
+    background: #F3F3F3;
+    opacity: 0.7;
+    color: #4A4B4D;
+    padding: 23px 24px 25px 22px;
+    height: fit-content;
+}
+.raodenoba {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #231F20;
+    justify-content: space-around;
+}
+.pg1border {
+    border: 0.7px solid #231F20;
+    padding: 10px 0px 10px 5px;
+}
+.sortv {
+    padding-left: 167px;
+    padding-right: 6px;
+}
+.pg1products {
+    display: flex;
+    justify-content: right;
+    margin-right: 40px;
+}
+.pgmtsmask {
+    color: #1E1E20;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin-top: 95px;
+}
+.mtspricee1 {
+    display: flex;
+    justify-content: center;
+}
+.productspg1 {
+    display: flex;
+    justify-content: right;
+    margin-top: 65px;
+    margin-right: 40px;
+}
+.mtspricee11 {
+    display: flex;
+    justify-content: center;
+}
+.mtsmaskk {
+    color: #1E1E20;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin-top: 69px;
+}
+.danayofi {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-left: 200px;
+}
+.cl1 {
+    padding-right: 10px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.cl2 {
+    background: #231F20;
+    color: white;
+    height: fit-content;
+    padding: 6px 6px 6px 6px;
+}

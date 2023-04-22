@@ -1,0 +1,120 @@
+.personinfo {
+    display: flex;
+    justify-content: space-around;
+}
+.emailbox {
+    position: absolute;
+    display: flex;
+}
+.pg4email {
+    height: 44px;
+    position: absolute;
+    border: 1px solid #C4C4C4;
+    width: 294px;
+}
+.pg4emaill {
+    position: relative;
+    display: flex;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #222222;
+    padding: 13px 0px 0px 15px;
+    align-items: center;
+}
+.pg4address {
+    margin-top: 68px;
+    position: absolute;
+    display: flex;
+    width: 614px;
+    height: 45px;
+}
+.bbb {
+    margin-left: 252px;
+    padding-left: 0px;
+}
+.bb {
+    margin-left: 252px;
+    padding-left: 9px;
+}
+.addr {
+    position: absolute;
+    border: 1px solid #C4C4C4;
+    width: 614px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.rlad {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #222222;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+    height: 45px;
+}
+.pg4addresss {
+    margin-top: 136px;
+    position: absolute;
+    display: flex;
+    width: 614px;
+    height: 45px;
+}
+.emailboxx {
+    position: absolute;
+    margin-top: 279px;
+    display: flex;
+}
+.pg4addressss {
+    width: 620px;
+    height: 45px;
+    margin-top: 207px;
+}
+.pg4end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 164px;
+}
+.back {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #231F20;
+    cursor: pointer;
+    text-decoration: none;
+}
+.adcart {
+    background: #E2342D;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+    border: aliceblue;
+    border-radius: 11px;
+    text-decoration: none;
+}
+.delliveri {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #222222;
+    margin-top: 10px;
+}
+.pg4check {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #222222;
+}
