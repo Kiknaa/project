@@ -21,7 +21,7 @@
 
             <div class="hedertxt1">
                 <div class="t1">SHOP</div>
-                <div class="t1">ESSENTIALS</div>
+                <a href="./index3.html" class="t1">ESSENTIALS</a>
                 <a class="t1" href="index.html"><img src="./hederImage/MaccEssentials.png"></a>
                 <div class="t1">BEST SELLER</div>
                 <div class="t1">ABOUT US</div>
@@ -44,10 +44,10 @@
 
             <div class="lists1">
                 <div class="Productsss">
-                    <div class="blue">Evryday Essentials</div>
-                    <div class="col1">Cleaning Essentials</div>
-                    <div class="col1">Immunity & Health</div>
-                    <div class="col1">Vittamin Supplemer</div>
+                    <div id="evpr" class="blue">Evryday Essentials</div>
+                    <div onclick="evpr()" id="evpr1" class="col1">Cleaning Essentials</div>
+                    <div id="evpr2" class="col1">Immunity & Health</div>
+                    <div id="evpr3" class="col1">Vittamin Supplemer</div>
                 </div>            
             </div>
         </div>
@@ -64,13 +64,13 @@
                 <div class="mtspricee1"><img src="./hederImage/price1.png"></div>
             </div>
 
-            <div class="mtsproduct">
+            <div id="none2" class="mtsproduct">
                 <div class="mtsspray"><img src="./page1/Product_img.png"></div>
                 <div class="pgmtsmask">Vitamin C</div>
                 <div class="mtspricee1"><img src="./page1/280.png"></div>
             </div>
 
-            <div class="mtsproduct">
+            <div id="none1" class="mtsproduct">
                 <div class="mtsspray"><img src="./page1/Product_img (1).png"></div>
                 <div class="pgmtsmask">Hand Gloves</div>
                 <div class="mtspricee1"><img src="./page1/150.png"></div>
@@ -85,7 +85,7 @@
                 <div class="mtspricee1"><img src="./page1/87.png"></div>
             </div>
 
-            <div class="mtsproduct">
+            <div id="none" class="mtsproduct">
                 <div class="mtsspray"><img src="./page1/Product_img (3).png"></div>
                 <div class="pgmtsmask">Mask</div>
                 <div class="mtspricee1"><img src="./page1/34.png"></div>
@@ -138,6 +138,15 @@
             function emailnone() {
                 let email = document.getElementById("email")
                 let none = document.getElementById("email").style.display = "none"
+            }
+            function evpr() {
+                let none = document.getElementById("none");
+                let none1 = document.getElementById("none1");
+                let none2 = document.getElementById("none2");  
+
+                let prnone = document.getElementById("none").style.display = "none"
+                let prnone1 = document.getElementById("none").style.display = "none"
+                let prnone2 = document.getElementById("none").style.display = "none"
             }
         </script>
     </body>
